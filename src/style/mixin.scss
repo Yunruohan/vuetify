@@ -1,0 +1,13 @@
+//定义宽高
+@mixin wh($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+//定义margin的值
+@mixin mg($top, $right, $bottom, $left) {
+    margin-top: $top!important;
+    margin-left: $left;
+    margin-bottom: $bottom;
+    margin-right: $right;
+}
